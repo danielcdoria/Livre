@@ -109,7 +109,7 @@ input{
     content: '';
     position: absolute;
     inset: 2px;
-    background: /*rgb(21, 21, 53)*/rgb(42, 42, 94);
+    background: rgb(21, 21, 53);
 }
 
 #participar span{
@@ -133,7 +133,7 @@ input{
     left: 80%;
     width: 15px;
     height: 4px;
-    background: /*rgb(21, 21, 53)*/rgb(42, 42, 94);
+    background: rgb(21, 21, 53);
     transform: translateX(-50%) skewX(325deg);
     transition: .7s;
 }
@@ -150,7 +150,7 @@ input{
     left: 20%;
     width: 15px;
     height: 4px;
-    background: /*rgb(21, 21, 53)*/rgb(42, 42, 94);
+    background: rgb(21, 21, 53);
     transform: translateX(-50%) skewX(325deg);
     transition: .7s;
 }
@@ -196,7 +196,6 @@ form input.piscar:focus {
     .topo{
         width: 60%;
         margin-bottom: 30px;
-        margin-top: 200px;
     }
 
     .principal{
@@ -241,6 +240,20 @@ form input.piscar:focus {
     #gigrande{
         width: 100%;
         transform: translateY(40px);
+        margin-top: 200px;
+    }
+
+    #participar i::before{
+        
+        background: rgb(42, 42, 94);
+    }
+
+    #participar i::after{
+        background: rgb(42, 42, 94);
+    }
+
+    #participar::before{
+        background: rgb(42, 42, 94);
     }
 }
 
