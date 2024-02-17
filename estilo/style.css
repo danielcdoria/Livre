@@ -122,6 +122,10 @@ input{
     display: block;
 }
 
+::placeholder{
+    color: rgb(199, 199, 199);
+}
+
 #participar i::before{
     content: '';
     position: absolute;
