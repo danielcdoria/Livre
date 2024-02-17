@@ -101,7 +101,7 @@ input{
     letter-spacing: 0.25em;
     background-color: rgb(93, 93, 255);
     box-shadow: 0 0 20px rgb(93, 93, 255);
-    color: rgb(93, 93, 255);
+    color: rgb(176, 176, 255);
     scale: 1.02;
 }
 
@@ -190,12 +190,25 @@ form input.piscar:focus {
     }
 
     .topo{
-        width: 50%;
+        width: 60%;
         margin-bottom: 30px;
     }
 
     .principal{
         width: 80%;
+        background-color: rgba(21, 21, 53, 0.87);
+        border: 1px solid #dfd2c1;
+    }
+
+    .topo > h1{
+        width: 80%;
+        margin: auto;
+    }
+
+    body{
+        
+        background: linear-gradient(to right, #7b6c59, #989896,#dfd2c1);
+        
     }
 
     #participar{
@@ -218,12 +231,19 @@ form input.piscar:focus {
         font-size: 1.5em;
     }
 
+    #gigrande{
+        width: 100%;
+        transform: translateY(40px);
+    }
 }
 
 @media screen and (max-width: 500px){
     .topo{
-        width: 70%;
+        width: 95%;
+        margin-top: 40px;
     }
+
+    
 }
 
 
