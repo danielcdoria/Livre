@@ -157,7 +157,11 @@ form input.piscar {
 form input.piscar:focus {
     outline: none; /* Remova a borda de foco padrão */
     box-shadow: none; /* Remova a sombra padrão de foco */
-    border-bottom: 1px solid #9b8870; /* Remova a borda inferior quando focado */
+    border-bottom: 1px solid rgb(133, 133, 255); /* Remova a borda inferior quando focado */
+}
+
+@media screen  {
+    
 }
 
 
