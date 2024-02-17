@@ -3,4 +3,62 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
+
+body{
+    background: linear-gradient(to right, #7b6c59, #dfd2c1);
+}
+
+.pai{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.principal{
+    width: 60%;
+    border-radius: 30px;
+    background-color: rgb(20, 20, 20);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.555);
+    
+}
+
+.esquerdo{
+    width: 50%;
+    /*background-color: #534839;*/
+    background: url(../img/Imagem\ do\ WhatsApp\ de\ 2024-02-16\ à\(s\)\ 17.27.41_a4f1e055.jpg) center center no-repeat;
+    background-size: cover;
+    height: 29.1vh;
+    border-radius: 30px;
+    display: flex;
+}
+
+.esquerdo > h1{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 30px 30px 0 30px;
+    margin-top: 200px;
+    color: black;
+    
+}
+
+.direito{
+    width: 50%;
+}
+
+.direito > h2{
+    text-align: center;
+    padding: 30px 0 0 0 ;
+}
+
+
