@@ -185,9 +185,6 @@ form input.piscar:focus {
         display: none;
     }
 
-    body{
-        padding: 70px 0 110px 0;
-    }
 
     .flex{
         flex-direction: column;
@@ -262,8 +259,14 @@ form input.piscar:focus {
 @media screen and (max-width: 500px){
     .topo{
         width: 95%;
-        margin-top: 40px;
     }
+
+    body{
+        padding: 50px 0;
+        overflow-x: hidden;
+    }
+
+    
 
     
 }
